@@ -4,7 +4,7 @@ import plotly_express as px
 
 data_base = pd.read_csv('vehicles_us.csv') ## Lee el archivo CSV
 
-hist_button = st.hist_button('construir histograma')
+hist_button = st.button('construir histograma')
 
 build_histogram = st.checkbox('Construir un histograma')
 
