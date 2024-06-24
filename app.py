@@ -13,7 +13,7 @@ if hist_button:
     
     st.write('Creación de un histograma para el conjunto de datos de anuncios de venta de coches')
 
-    fig = px.histogram(data_base,x='odomenter')
+    fig = px.histogram(data_base,x='odometer')
 
     st.plotly_chart(fig,use_container_width=True)
     
@@ -21,7 +21,7 @@ if build_histogram: # si la casilla de verificación está seleccionada
     
     st.write('Construir un histograma para la columna odómetro')
     
-    fig = px.histogram(data_base,x='odomenter')
+    fig = px.histogram(data_base,x='odometer')
 
     st.plotly_chart(fig,use_container_width=True)
 
