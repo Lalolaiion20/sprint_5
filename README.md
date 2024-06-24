@@ -1,4 +1,4 @@
-Proyecto: SPRINT_5
+# Proyecto: SPRINT_5
 Descripción
 Este proyecto consiste en la creación y despliegue de un panel de control para una aplicación web utilizando Streamlit.
 
@@ -18,22 +18,28 @@ streamlit
 
 Estructura del Proyecto
 El repositorio del proyecto contiene los siguientes archivos y directorios:
+``` bash
 .
-├── README.md
-├── app.py
-├── vehicles_us.csv
-├── requirements.txt
-└── notebooks
-    └── EDA.ipynb
-└── .streamlit
-    └── config.toml
+├── `README.md`
+├── `app.py`
+├── `vehicles_us.csv`
+├── `requirements.txt`
+└── `notebooks`
+    └── `EDA.ipynb`
+└── `.streamlit`
+    └── `config.toml`
+```
 
-Configurar los comandos de Build y Start:
+Configurar los comandos de Build y Start para la pagina render.com:
 
-Build Command:
+```Build Command:
+bash
 pip install --upgrade pip && pip install -r requirements.txt
+```
 
-Start Command:
+```Start Command:
+bash
 streamlit run app.py
+```
 
 Desplegar la aplicación y verificar que sea accesible a través de la URL proporcionada por Render.
