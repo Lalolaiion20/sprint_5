@@ -6,7 +6,7 @@ st.heater('informacion para la venta de coches')
 
 data_base = pd.read_csv('vehicles_us.csv') ## Lee el archivo CSV
 
-hist_button = st.button('construir histograma')
+hist_button = st.checkbox('construir histograma')
 
 build_histogram = st.button('tipo de transmision')
 
