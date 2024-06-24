@@ -12,7 +12,7 @@ build_histogram = st.button('tipo de transmision')
 
 build_histogram_type = st.button('tipo')
 
-disp_cost = st.button('Construir gráfico de dispersión'):
+disp_cost = st.button('Construir gráfico de dispersión')
 
 if disp_cost:
     st.write('Creación de un gráfico de dispersión para el conjunto de datos de anuncios de venta de coches')
